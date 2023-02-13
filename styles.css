@@ -1,8 +1,3 @@
-html, body {
-    max-width: 100% !important;
-    overflow-x: hidden !important;
-}
-
 
 /*nav bar*/
 .bar{
@@ -801,8 +796,18 @@ span{
     left: 40%;
 }
 
+
+
+/* responsive */
+
 @media (max-width: 768px){
 
+
+    html, body {
+        max-width: 100% !important;
+        overflow-x: hidden !important;
+    }
+    
     .bar{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
