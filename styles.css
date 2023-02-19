@@ -166,6 +166,10 @@ a:active {
     font-family: 'Poppins';
 }
 
+.invalid{
+    border: 1px solid rgba(219, 56, 56, 0.596);
+}
+
 #btn{
     color: white;
     text-align: center;
@@ -698,6 +702,16 @@ span{
     border-radius: 12px;
 }
 
+#btn-f{
+    cursor: pointer;
+}
+
+#btn-f:active {
+    background: #0f4d70;
+    font-size: 0.9em;
+    transform: scale(0.9);
+}
+
 .menu-f1{
     position: absolute;
     top: 50px;
@@ -773,6 +787,7 @@ span{
     position: absolute;
     top: 120px;
     left: 500px;
+    cursor: pointer;
 }
 
 .cont-f{
@@ -1278,10 +1293,20 @@ span{
         position: absolute;
         width: 94px;
         height: 42px;
-    
         background: #2D9CDB;
         border-radius: 12px;
     }
+   
+    #btn-f{
+        cursor: pointer;
+    }
+    
+    #btn-f:active {
+        background: #0f4d70;
+        font-size: 0.9em;
+        transform: scale(0.9);
+    }
+
 
     .menu-f1{
         position: absolute;
@@ -1336,6 +1361,7 @@ span{
         left: 30px;
         height: 20px;
         width: 60px;
+        cursor: pointer;
     }
 
     .cont-f{
