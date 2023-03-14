@@ -1,9 +1,13 @@
+html, body {
+    max-width: 100% !important;
+    overflow-x: hidden !important;
+}
 
 /*nav bar*/
 .bar{
     margin-top: 3%;
     height: 100px;
-    width: 1000px;
+    width: 700px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     height: 10em;
@@ -33,8 +37,8 @@
 
 a{ 
     color: #100E1D;
-    padding-top: 40px;
-    padding-left: 30px;
+    padding-top: 20px;
+    padding-left: 10px;
     line-height: 500px;
     display: inline-block;
     text-align: center;
@@ -96,7 +100,7 @@ a:active {
 
 .crew{
     position: absolute;
-    width: 1250px;
+    width: 1150px;
     height: 354px;
     left: 52px;
     top: 220px;
@@ -219,11 +223,11 @@ a:active {
 }
 
 .ui, .front, .backend{
-    width: 341px;
+    width: 300px;
     height: 400px;
     position: absolute;
     top: 1200px;
-    left: 10px;
+    left: 5px;
     border-radius: 24px;
 }
 
@@ -236,15 +240,15 @@ a:active {
 }
 
 .ui{
-    left: 100px;
+    left: 50px;
 }
 
 .front{
-    left: 500px;
+    left: 450px;
 }
 
 .backend{
-    left: 900px;
+    left: 850px;
 }
 
 span{
@@ -574,7 +578,7 @@ span{
     position: absolute;
     width: 260px;
     height: 260px;
-    left: 980px;
+    left: 900px;
     top: 50px;
     border-radius: 24px;
 }
@@ -583,7 +587,7 @@ span{
     position: absolute;
     width: 260px;
     height: 260px;
-    left: 700px;
+    left: 620px;
     top: 180px;
     border-radius: 24px;
 }
@@ -592,7 +596,7 @@ span{
     position: absolute;
     width: 260px;
     height: 260px;
-    left: 980px;
+    left: 900px;
     top: 320px;
     border-radius: 24px;
 }
@@ -655,8 +659,9 @@ span{
 /*end page*/
 .end_page{
     position: absolute;
+    left: -5px;
     top: 4700px;
-    width: 1340px;
+    width: 1230px;
     height: 400px;
     text-align: center;
     color: rgb(255, 255, 255);
